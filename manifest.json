@@ -1,18 +1,19 @@
 {
-  "manifest_version": 2,
-  "name": "PROJECT NAME",
-  "description": "PROJECT DESCRIPTION",
-  "version": "0.1",
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*/*",
-        "file://*"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "run_at": "document_end"
+    "manifest_version": 2,
+    "name": "elliots extension",
+    "description": "this is a description",
+    "version": "0.1",
+    "content_scripts": [{
+        "matches": [
+            "*://*/*",
+            "file://*"
+        ],
+        "js": [
+            "content.js"
+        ],
+        "run_at": "document_end"
+    }],
+    "icons": {
+        "128": "images/icon.png"
     }
-  ]
 }
