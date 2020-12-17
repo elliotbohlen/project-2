@@ -1,0 +1,16 @@
+* {
+    color: black !important;
+    background-color: transparent !important;
+    position: absolute !important;
+}
+
+html,
+body {
+    position: fixed !important;
+}
+
+
+/* html,
+body {
+    position: fixed !important;
+} */
