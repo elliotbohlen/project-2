@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "elliots extension",
-    "description": "this is a description",
+    "name": "glitch intervention: elliot",
+    "description": "Reveals the skeleton of each webpage and becomes more playful and interactive, the page itself avoids and hides from your cursor, making browsing next to impossible",
     "version": "0.1",
     "content_scripts": [{
         "matches": [
