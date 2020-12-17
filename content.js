@@ -22,9 +22,18 @@ document.onmousemove = function mousePosition(event) {
         // element.style.setProperty('left', xpos);
         // element.style.setProperty('top', ypos);
 
-        element.style.left = (event.pageX / 10) + "%";
-        element.style.top = (event.pageY / 10) + "%";
+        element.style.left = event.pageX / 90 + "%";
+        element.style.top = event.pageY / 90 + "%";
 
+
+        // element.style.left = event.pageX / 5 + "px";
+        // element.style.top = event.pageY / 5 + "px";
+
+
+        // document.querySelector("body").style.left = "0px !important"
+        // document.querySelector("html").style.left = "0px !important"
+
+        // element.style.transform = "skew(" + (event.pageY / 200) + "deg)";
 
     }
 }
